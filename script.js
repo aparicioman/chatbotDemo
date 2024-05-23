@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // Mensaje informativo inicial
-    addMessageToChat('Chatbot', '¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte hoy?<br><br>Puedes preguntar acerca de los siguientes puntos:<br><br>1. Servicios que realizo<br>2. Preguntar por precios<br>3. Preguntar por los proyectos realizados');
+    addMessageToChat('Chatbot', '¡Hola! Soy el asistente virtual de Javier Aparicio, esta es una demo para mis clientes de Workana. ¿En qué puedo ayudarte hoy?<br><br>Puedes preguntar acerca de los siguientes puntos:<br><br>1. Servicios que realizo<br>2. Preguntar por precios<br>3. Preguntar por los proyectos realizados');
 });
 
 document.getElementById('chat-form').addEventListener('submit', function(event) {
@@ -31,7 +31,7 @@ document.getElementById('chat-form').addEventListener('submit', function(event) 
                 botResponse = 'Los precios dependerán del proyecto, por lo general el precio suele ser muy asumible y se ajusta a las necesidades de cada uno :)';
                 break;
             case 'servicios':
-                botResponse = 'Los ámbitos en los que estoy especializado desarrollo de software con c, desarrollo de bots y desarrollo de aplicaciones en Android con java. Aquí te dejo alguno de mis proyectos:';
+                botResponse = 'Los ámbitos en los que estoy especializado desarrollo de software con c, desarrollo de bots y desarrollo de aplicaciones en Android con java';
                 break;
             case 'proyectos':
                     botResponse = 'He realizado múltiples proyectos relacionados con el desarrollo de soluciones software a lo largo de mi vida entre ellos destacan el desarrollo de un bot especializado en cualquier ámbito de negocio o el desarrollo de una aplicación móvil para monitorear las comunicaciones BLE entre 2 dispositivos';
