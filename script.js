@@ -14,7 +14,7 @@ document.getElementById('chat-form').addEventListener('submit', function(event) 
     // Enviar el mensaje a Wit.ai
     fetch('https://api.wit.ai/message?v=20200513&q=' + encodeURIComponent(userInput), {
         headers: {
-            'Authorization': 'Bearer DVQAZM6NWPGLHFLYXE4M6KN545XX4BMZ'
+            'Authorization': 'Bearer N42ZOPMIISEW7U3B47F5PRJDTOXOOXC7'
         }
     })
     .then(response => response.json())
